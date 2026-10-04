@@ -1,0 +1,2 @@
+Use the read tool to read the entire runbook.txt file.
+Then reply only "Runbook read". Do not modify files.

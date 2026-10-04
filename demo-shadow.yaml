@@ -1,0 +1,24 @@
+version: 1
+name: jev-demo-shadow
+inherits: pipy
+description: Live Jev context demo in shadow mode; synthetic evidence, no automatic
+  model routing.
+runtime:
+  backend: pipy
+  config:
+    mcp_config: false
+    context:
+      mode: shadow
+      selector: jev
+      min_chars: 1000
+      recent_messages: 1
+      excerpt_chars: 500
+      max_candidates: 1
+      max_scorer_calls: 1
+      timeout_ms: 10000
+systemone:
+  enabled: true
+  client: live
+  model: jev-1.13.0
+  mode: shadow
+  timeout_ms: 10000

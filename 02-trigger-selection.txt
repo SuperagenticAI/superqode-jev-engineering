@@ -1,0 +1,2 @@
+Explain stable evidence references in one sentence.
+You do not need the detailed historical runbook. Use no tools.
